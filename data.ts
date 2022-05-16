@@ -8,13 +8,13 @@ import { Iservices } from "./type";
 export const services: Iservices[] = [
   {
     Icon: RiComputerLine,
-    title: "front-end Dev",
+    title: "Front-end Deveveloppement",
     about:
       "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
   },
   {
     Icon: FaServer,
-    title: "title",
+    title: "Backend Developpement",
     about:
       "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
   },
@@ -26,20 +26,20 @@ export const services: Iservices[] = [
   },
   {
     Icon: MdDeveloperMode,
-    title: "title",
+    title: "Application Developpement",
     about:
       "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
   },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "title",
-    about:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "title",
-    about:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
-  },
+  // {
+  //   Icon: AiOutlineAntDesign,
+  //   title: "Application Developpement",
+  //   about:
+  //     "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
+  // },
+  // {
+  //   Icon: RiComputerLine,
+  //   title: "title",
+  //   about:
+  //     "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression",
+  // },
 ];
