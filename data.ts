@@ -42,7 +42,12 @@ export const services: Iservices[] = [
 
 export const languages: ISkill[] = [
   {
-    name: "HTML & CSS",
+    name: "HTML",
+    level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "CSS",
     level: "70%",
     Icon: BsCircleFill,
   },
@@ -57,7 +62,7 @@ export const languages: ISkill[] = [
     Icon: BsCircleFill,
   },
   {
-    name: "Java Script",
+    name: "JavaScript",
     level: "75%",
     Icon: BsCircleFill,
   },

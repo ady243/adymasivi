@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="fr">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         ></link>
       </Head>
-      <body className="bg-gradient-to-r from-yellow-500 to-red-500">
+      <body className="bg-gradient-to-r from-yellow-500 to-red-500 dark:from-dark-500 dark:to-dark-700">
         <Main />
         <NextScript />
       </body>
