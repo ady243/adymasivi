@@ -1,7 +1,7 @@
 import { services } from "../data";
 
 import React from "react";
-import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
+import { GetServerSidePropsContext } from "next";
 import ServiceCard from "../components/ServiceCard";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
         standard de limprimerie depuis les année 2022
       </h5>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h6 className="my-3 text-xl font-bold tracking-wide">
@@ -23,7 +23,7 @@ const Home = () => {
           {services.map((services) => (
             // eslint-disable-next-line react/jsx-key
             <div
-              className="col-span-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1"
+              className="col-span-2 bg-gray-200 rounded-lg dark:bg-dark-300 dark:bg-dark-500 md:col-span-1"
               key={services.title}
             >
               <ServiceCard service={services} />

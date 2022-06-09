@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
@@ -57,7 +58,7 @@ function resume() {
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 ">
           <div>
             <h5 className="my-3 text-2xl fonr-bold">outils et logiciels</h5>
             <div className="my-2">
