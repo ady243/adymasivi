@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { services } from "../data";
 
 import React from "react";
@@ -8,9 +9,13 @@ const Home = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        Le Lorem Ipsum est simplement du faux texte employé dans la composition
-        et la mise en page avant impression. Le Lorem Ipsum est le faux texte
-        standard de limprimerie depuis les année 2022
+        Développeur full stack, avec plus de 2 ans d’expérience. Mordu
+        d’informatique, j’ai appris à coder dans divers langages informatiques
+        (Javascript,NextJS…) et j'ai créé des projets personnels, dont une
+        application d'E-commerce de vente de mobilier en JAVA , je maîtrise les
+        différentes étapes techniques de la création d’un site ou d’une
+        application web ; de la compréhension des besoins utilisateurs, au
+        développement frontend et backend en passant par la maintenance.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
