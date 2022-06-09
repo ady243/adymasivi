@@ -21,6 +21,15 @@ export interface IProject {
   image_path: string;
   deployed_url: string;
   github_url: string;
-  category: string;
-  key_taches: string;
+  category: Category[];
+  key_taches: string[];
 }
+
+export type Category =
+  | "ReactJs"
+  | "Express"
+  | "KnexJs"
+  | "Java"
+  | "NextJS"
+  | "Kotlin"
+  | "Flutter";

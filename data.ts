@@ -4,7 +4,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { FaServer } from "react-icons/fa";
 import { BsCircleFill } from "react-icons/bs";
 
-import { Iservices, ISkill } from "./type";
+import { IProject, Iservices, ISkill } from "./type";
 
 export const services: Iservices[] = [
   {
@@ -107,5 +107,35 @@ export const tools: ISkill[] = [
     name: "UX",
     level: "55%",
     Icon: BsCircleFill,
+  },
+];
+
+export const projects: IProject[] = [
+  {
+    name: "Expenses React",
+    description: "Application web de calcul de dépenses",
+    image_path: "images/tracker.png",
+    deployed_url: "",
+    github_url: "git@github.com:ady243/expenses.git",
+    category: ["ReactJs"],
+    key_taches: ["React", "StyledCSS", "TailwindCSS"],
+  },
+  {
+    name: "Annuaire Next",
+    description: "Application web de calcul de dépenses",
+    image_path: "images/ANNUAIRE.png",
+    deployed_url: "",
+    github_url: "git@github.com:ady243/Annuaire.git",
+    category: ["NextJS"],
+    key_taches: ["Next", "StyledCSS", "TailwindCSS", "Bootstrap"],
+  },
+  {
+    name: "Blog Post",
+    description: "Application web de post commentaire et de création de compte",
+    image_path: "images/tracker.png",
+    deployed_url: "",
+    github_url: "git@github.com:ady243/expenses.git",
+    category: ["ReactJs"],
+    key_taches: ["React", "StyledCSS", "TailwindCSS"],
   },
 ];

@@ -11,12 +11,13 @@ const Home = () => {
       <h5 className="my-3 font-medium">
         Développeur full stack, avec plus de 2 ans d’expérience. Mordu
         d’informatique, j’ai appris à coder dans divers langages informatiques
-        (Javascript,NextJS…) et j'ai créé des projets personnels, dont une
+        (HTML ,NEXT.JS…) et j'ai créé des projets personnels, dont une
         application d'E-commerce de vente de mobilier en JAVA , je maîtrise les
         différentes étapes techniques de la création d’un site ou d’une
         application web ; de la compréhension des besoins utilisateurs, au
         développement frontend et backend en passant par la maintenance.
       </h5>
+
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
