@@ -104,7 +104,7 @@ const Sliderbar = () => {
       </button>
       <footer className="py-3 my-4">
         <ul className="pb-3 mb-3 nav justify-content-center border-bottom"></ul>
-        <p className="text-center text-muted">©2022 Ady Masivi, Dev</p>
+        <p className="text-center text-muted">©2022 Ady Masivi, DevWeb</p>
       </footer>
     </div>
   );
