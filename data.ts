@@ -116,7 +116,7 @@ export const projects: IProject[] = [
     description: "Application web de calcul de dépenses",
     image_path: "images/tracker.png",
     deployed_url: "",
-    github_url: "git@github.com:ady243/expenses.git",
+    github_url: "https://github.com/ady243/expenses",
     category: ["ReactJs"],
     key_taches: ["React", "StyledCSS", "TailwindCSS"],
   },
@@ -145,7 +145,7 @@ export const projects: IProject[] = [
     image_path: "images/mobili.jpg",
     deployed_url: "",
     github_url: "git@github.com:ady243/Mobilishop-Java.git",
-    category: ["NextJS", "FireBase"],
+    category: ["Java", "FireBase"],
     key_taches: ["Java"],
   },
   {
@@ -163,7 +163,7 @@ export const projects: IProject[] = [
     image_path: "images/encours.jpeg",
     deployed_url: "",
     github_url: "git@github.com:ady243/Knext-Express.ady",
-    category: ["KnexJs", "Express"],
-    key_taches: ["Java"],
+    category: ["Flutter", "FireBase"],
+    key_taches: ["Flutter"],
   },
 ];
