@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import { Category } from "../type";
 
 export const NavItem: FunctionComponent<{
-  value: Category | "all";
+  value: Category | "Tout";
   handlerFilterCategory: Function;
   active: string;
 }> = ({ value, handlerFilterCategory, active }) => {
@@ -23,7 +23,7 @@ const ProjectsNavbar: FunctionComponent<{
 }> = (props) => {
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
-      <NavItem value="all" {...props} />
+      <NavItem value="Tout" {...props} />
       <NavItem value="ReactJs" {...props} />
       <NavItem value="Express" {...props} />
       <NavItem value="KnexJs" {...props} />

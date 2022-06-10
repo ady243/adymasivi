@@ -26,6 +26,7 @@ const ProjectCard: FunctionComponent<{ project: IProject }> = ({
         className="cursor-pointer"
         onClick={() => setShowDetails(true)}
       />
+
       <p className="my-2 text-center">{name}</p>
 
       {showDetails && (

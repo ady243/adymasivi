@@ -142,7 +142,7 @@ export const projects: IProject[] = [
     name: "MobiliShop",
     description:
       "Application d'E-commerce de vente en ligne des produits mobiliers",
-    image_path: "images/mobili.jpg",
+    image_path: "images/mobilishop.png",
     deployed_url: "",
     github_url: "git@github.com:ady243/Mobilishop-Java.git",
     category: ["Java", "FireBase"],
@@ -155,7 +155,7 @@ export const projects: IProject[] = [
     deployed_url: "",
     github_url: "git@github.com:ady243/Knext-Express.git",
     category: ["KnexJs", "Express"],
-    key_taches: ["Java"],
+    key_taches: ["Java", "FireBase"],
   },
   {
     name: "Flutter",
