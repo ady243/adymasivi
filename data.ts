@@ -160,7 +160,7 @@ export const projects: IProject[] = [
   {
     name: "Flutter",
     description: "Register App (En cours) ",
-    image_path: "",
+    image_path: "images/encours.jpeg",
     deployed_url: "",
     github_url: "git@github.com:ady243/Knext-Express.ady",
     category: ["KnexJs", "Express"],

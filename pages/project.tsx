@@ -1,16 +1,16 @@
-/* eslint-disable react/jsx-key */
-import React from "react";
+import { FunctionComponent } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data";
+
 const Projects = () => {
   return (
     <div>
-      <nav>NAVBAR</nav>
-
-      <div>
+      <nav>NAVABAR</nav>
+      <div className="grid grid-cols-12 gap-4 my-3">
         {projects.map((project) => (
-          <div>
-            <ProjectCard project={project} key={projects.name} />
+          // eslint-disable-next-line react/jsx-key
+          <div className="col-span-12 p-2 sm:col lg:col-span-4">
+            <ProjectCard project={project} key={project.name} />
           </div>
         ))}
       </div>
