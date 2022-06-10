@@ -32,4 +32,5 @@ export type Category =
   | "Java"
   | "NextJS"
   | "Kotlin"
-  | "Flutter";
+  | "Flutter"
+  | "FireBase";

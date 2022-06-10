@@ -1,7 +1,22 @@
 import React from "react";
+import { projects } from "../data";
+const Projects = ()=> {
+  return (
+    <div>
+      <nav>NAVBAR</nav>
 
-function project() {
-  return <div className="p-4">project</div>;
+      <div>
+        (
+        projects.map(project=>(
+        <div>
+          <ProjectCard/>
+        </div>
+        ))
+        )
+      </div>
+   </div>
+
+  ) 
 }
 
-export default project;
+export default Projects;
