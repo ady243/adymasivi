@@ -28,9 +28,9 @@ function Navbar() {
   const { pathname } = useRouter();
 
   useEffect(() => {
-    if (pathname === "/") setActiveItem("About");
+    if (pathname === "/") setActiveItem("à propos");
     if (pathname === "/project") setActiveItem("Projects");
-    if (pathname === "/resume") setActiveItem("Resume");
+    if (pathname === "/resume") setActiveItem("Cv");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
@@ -42,7 +42,7 @@ function Navbar() {
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name="About"
+          name="À propos"
           route="/"
         />
         <NavItem
@@ -54,7 +54,7 @@ function Navbar() {
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
-          name="Resume"
+          name="Cv"
           route="/resume"
         />
       </div>

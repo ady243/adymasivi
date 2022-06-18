@@ -158,9 +158,9 @@ export const projects: IProject[] = [
     key_taches: ["Java", "FireBase"],
   },
   {
-    name: "Flutter",
+    name: "Flutter (En cours..)",
     description: "Register App (En cours) ",
-    image_path: "images/encours.jpeg",
+    image_path: "images/flutt.jpeg",
     deployed_url: "",
     github_url: "git@github.com:ady243/Knext-Express.ady",
     category: ["Flutter", "FireBase"],

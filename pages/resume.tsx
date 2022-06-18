@@ -12,11 +12,9 @@ function resume() {
           <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">
-              Ecole d'igéniérie informatique (2021-2022)
+              Ecole de spécialisation en dévéloppement web (2022)
             </p>
-            <p className="my-3">
-              Poursuit actuellement un cursus d'ingeniérie informatique
-            </p>
+            <p className="my-3"></p>
           </div>
         </div>
         <div>
@@ -25,9 +23,6 @@ function resume() {
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">
               Ecole d'igéniérie informatique (2021-2022)
-            </p>
-            <p className="my-3">
-              Poursuit actuellement un cursus d'ingeniérie informatique
             </p>
           </div>
         </div>
@@ -36,13 +31,11 @@ function resume() {
         <div>
           <h5 className="my-3 text-2xl font-bold">Educations</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
+            <h5 className="my-2 text-xl font-bold">COURS DIDEROT</h5>
             <p className="font-semibold">
-              Ecole d'igéniérie informatique (2021-2022)
+              BTS service informatique aux organisations (2019)
             </p>
-            <p className="my-3">
-              Poursuit actuellement un cursus d'ingeniérie informatique
-            </p>
+            <p className="my-3"></p>
           </div>
         </div>
         <div>
@@ -50,10 +43,10 @@ function resume() {
           <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">
-              Ecole d'igéniérie informatique (2021-2022)
+              Ecole d'igéniérie informatique (2022)
             </p>
             <p className="my-3">
-              Poursuit actuellement un cursus d'ingeniérie informatique
+              Poursuit actuellement un cursus de spécialisation informatique
             </p>
           </div>
         </div>
