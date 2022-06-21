@@ -11,8 +11,9 @@ function resume() {
           <h5 className="my-3 text-2xl font-bold">Educations</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
+            <p className="font-semibold">Bachelor 3</p>
             <p className="font-semibold">
-              Ecole de spécialisation en dévéloppement web (2022)
+              Ecole de spécialisation en dévéloppement web - 2022
             </p>
             <p className="my-3"></p>
           </div>
@@ -33,7 +34,7 @@ function resume() {
           <div>
             <h5 className="my-2 text-xl font-bold">COURS DIDEROT</h5>
             <p className="font-semibold">
-              BTS service informatique aux organisations (2019)
+              BTS service informatique aux organisations - 2019
             </p>
             <p className="my-3"></p>
           </div>
