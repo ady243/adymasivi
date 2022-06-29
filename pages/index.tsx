@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        Développeur full stack, avec plus de 2 ans d’expérience. Mordu
+        Développeur full stack, avec plus de 3 ans d’expérience. Mordu
         d’informatique, j’ai appris à coder dans divers langages informatiques
         (HTML ,NEXT.JS…) et j'ai créé des projets personnels, dont une
         application d'E-commerce de vente de mobilier en JAVA , je maîtrise les

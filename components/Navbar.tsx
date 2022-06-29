@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 const NavItem: FunctionComponent<{
   activeItem: string;
   setActiveItem: Function;
+
   name: string;
   route: string;
 }> = ({ activeItem, name, route, setActiveItem }) => {

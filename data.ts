@@ -43,27 +43,27 @@ export const services: Iservices[] = [
 export const languages: ISkill[] = [
   {
     name: "HTML",
-    level: "70%",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
     name: "CSS",
-    level: "70%",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
     name: "Bootstrap",
-    level: "75%",
+    level: "70%",
     Icon: BsCircleFill,
   },
   {
     name: "Tailwindcss",
-    level: "65%",
+    level: "75%",
     Icon: BsCircleFill,
   },
   {
     name: "JavaScript",
-    level: "75%",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
@@ -73,27 +73,27 @@ export const languages: ISkill[] = [
   },
   {
     name: "ReactJS",
-    level: "65%",
-    Icon: BsCircleFill,
-  },
-  {
-    name: "KnexJS",
     level: "75%",
     Icon: BsCircleFill,
   },
   {
+    name: "KnexJS",
+    level: "81%",
+    Icon: BsCircleFill,
+  },
+  {
     name: "Express",
-    level: "65%",
+    level: "75%",
     Icon: BsCircleFill,
   },
   {
     name: "Java",
-    level: "65%",
+    level: "60%",
     Icon: BsCircleFill,
   },
   {
     name: "Kotlin",
-    level: "45%",
+    level: "55%",
     Icon: BsCircleFill,
   },
 ];
