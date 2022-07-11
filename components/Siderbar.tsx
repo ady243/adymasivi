@@ -17,7 +17,7 @@ const Sliderbar = () => {
         src="/ady.jpg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
-        width={190}
+        width={207}
         height={260}
       />
       <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">

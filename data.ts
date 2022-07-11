@@ -25,13 +25,13 @@ export const services: Iservices[] = [
   {
     Icon: MdDeveloperMode,
     title: "Application Developpement",
-    about: "Java, Kotlin, ReactJs, Flutter",
+    about: "Java, Kotlin, ReactNative",
   },
 
   {
     Icon: AiFillSignal,
     title: "Réseaux",
-    about: "Cisco",
+    about: "Élémentaire",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -43,32 +43,23 @@ export const services: Iservices[] = [
 export const languages: ISkill[] = [
   {
     name: "HTML",
-    level: "80%",
-    Icon: BsCircleFill,
-  },
-  {
-    name: "CSS",
-    level: "80%",
-    Icon: BsCircleFill,
-  },
-  {
-    name: "Bootstrap",
     level: "70%",
     Icon: BsCircleFill,
   },
   {
-    name: "Tailwindcss",
-    level: "75%",
+    name: "CSS",
+    level: "70%",
     Icon: BsCircleFill,
   },
+
   {
     name: "JavaScript",
-    level: "80%",
+    level: "70%",
     Icon: BsCircleFill,
   },
   {
     name: "NextJS",
-    level: "85%",
+    level: "75%",
     Icon: BsCircleFill,
   },
   {
@@ -105,7 +96,7 @@ export const tools: ISkill[] = [
   },
   {
     name: "UX",
-    level: "55%",
+    level: "30%",
     Icon: BsCircleFill,
   },
 ];

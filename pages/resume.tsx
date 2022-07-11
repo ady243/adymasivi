@@ -26,7 +26,7 @@ function resume() {
           </h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
-              Développeur web - Full Stack / Alternance :{" "}
+              Développeur web - Full Stack / Alternance :
             </h5>
 
             <p className="my-3">Octobre 2021 - Septembre 2022 : Lbj Consult</p>
@@ -41,7 +41,7 @@ function resume() {
               BTS sérvice informatique aux organisations / SLAM
             </p>
 
-            <p className="my-3"> Brevet de technicien supérieur - 2019</p>
+            <p className="my-3"> Brevet de technicien supérieur - 2020</p>
           </div>
         </div>
         <div>
@@ -50,7 +50,7 @@ function resume() {
               Développeur web - Stage :{" "}
             </h5>
             <p className="font-semibold"></p>
-            <p className="my-3">Mai 2019 - Octobre 2019 : Why-not Paris</p>
+            <p className="my-3">Mai 2020 - Aout 2020 : Why-not Paris</p>
           </div>
         </div>
 
