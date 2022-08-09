@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Bar from "../components/Bar";
-import { languages, tools } from "../data";
+import { database, languages, tools } from "../data";
 
 function resume() {
   return (
@@ -56,10 +56,18 @@ function resume() {
 
         <div className="grid gap-6 md:grid-cols-2 ">
           <div>
-            <h5 className="my-3 text-2xl fonr-bold">outils et logiciels</h5>
+            <h5 className="my-3 text-2xl fonr-bold">Langages & Frameworks</h5>
             <div className="my-2">
               {languages.map((languages, i) => (
                 <Bar data={languages} key={i} />
+              ))}
+            </div>
+          </div>
+          <div>
+            <h5 className="my-3 text-2xl fonr-bold">Base de données</h5>
+            <div className="my-2">
+              {database.map((database, i) => (
+                <Bar data={database} key={i} />
               ))}
             </div>
           </div>

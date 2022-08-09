@@ -15,7 +15,7 @@ export const services: Iservices[] = [
   {
     Icon: FaServer,
     title: "Backend Developpement",
-    about: "Node : Express, KnexJs",
+    about: "Node : (Express, KnexJs), Spring Boot, MongoDB",
   },
   {
     Icon: AiOutlineApi,
@@ -53,7 +53,7 @@ export const languages: ISkill[] = [
   },
 
   {
-    name: "JavaScript",
+    name: "JS",
     level: "70%",
     Icon: BsCircleFill,
   },
@@ -79,12 +79,29 @@ export const languages: ISkill[] = [
   },
   {
     name: "Java",
-    level: "60%",
+    level: "65%",
     Icon: BsCircleFill,
   },
   {
     name: "Kotlin",
     level: "55%",
+    Icon: BsCircleFill,
+  },
+];
+export const database: ISkill[] = [
+  {
+    name: "Spring_Boot",
+    level: "60%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "MongoDB",
+    level: "60%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "MySQL",
+    level: "60%",
     Icon: BsCircleFill,
   },
 ];
@@ -148,13 +165,32 @@ export const projects: IProject[] = [
     category: ["KnexJs", "Express"],
     key_taches: ["Java", "FireBase"],
   },
+  // {
+  //   name: "Flutter (En cours..)",
+  //   description: "Register App (En cours) ",
+  //   image_path: "images/flutt.jpeg",
+  //   deployed_url: "",
+  //   github_url: "git@github.com:ady243/Knext-Express.ady",
+  //   category: [ "FireBase"],
+  //   key_taches: ["Flutter"],
+  // },
   {
-    name: "Flutter (En cours..)",
-    description: "Register App (En cours) ",
-    image_path: "images/flutt.jpeg",
+    name: "Data Base",
+    description: "demo Base de données en Spring Boot & MongoDB ",
+    image_path: "images/sping.png",
     deployed_url: "",
-    github_url: "git@github.com:ady243/Knext-Express.ady",
-    category: ["Flutter", "FireBase"],
-    key_taches: ["Flutter"],
+    github_url:
+      "https://gitlab.com/ady243/back-demo/-/commit/6b51f42e90f815c4d0ef79ec0852fb42cf2e4319",
+    category: ["Spring Boot"],
+    key_taches: ["Java"],
   },
+  // {
+  //   name: "Flutter (En cours..)",
+  //   description: "Register App (En cours) ",
+  //   image_path: "images/flutt.jpeg",
+  //   deployed_url: "",
+  //   github_url: "git@github.com:ady243/Knext-Express.ady",
+  //   category: ["Flutter", "FireBase"],
+  //   key_taches: ["Flutter"],
+  // },
 ];

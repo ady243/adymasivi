@@ -1,4 +1,9 @@
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillGitlab,
+  AiFillLinkedin,
+  AiFillInstagram,
+} from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import Image from "next/image";
@@ -48,6 +53,9 @@ const Sliderbar = () => {
         </a>
         <a href="https://github.com/ady243">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
+        </a>
+        <a href="https://gitlab.com/ady243">
+          <AiFillGitlab className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
 
@@ -104,7 +112,9 @@ const Sliderbar = () => {
       </button>
       <footer className="py-3 my-4">
         <ul className="pb-3 mb-3 nav justify-content-center border-bottom"></ul>
-        <p className="text-center text-muted">©2022 Ady Masivi, DevWeb</p>
+        <p className="text-center text-muted">
+          ©2022 adymasivi. All rigth reserved
+        </p>
       </footer>
     </div>
   );

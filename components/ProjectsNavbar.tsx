@@ -30,7 +30,8 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="Java" {...props} />
       <NavItem value="NextJS" {...props} />
       <NavItem value="Kotlin" {...props} />
-      <NavItem value="Flutter" {...props} />
+      <NavItem value="Spring Boot" {...props} />
+      {/* <NavItem value="MongoDB" {...props} /> */}
       <NavItem value="FireBase" {...props} />
     </div>
   );
