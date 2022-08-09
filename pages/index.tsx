@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { services } from "../data";
 
 import React from "react";
@@ -11,9 +10,9 @@ const Home = () => {
       <h5 className="my-3 font-medium">
         Développeur full stack, avec plus de 2 ans d’expérience. Mordu
         d’informatique, j’ai appris à coder dans divers langages informatiques
-        (HTML ,NEXT.JS…) et j'ai créé des projets personnels, dont une
-        application d'E-commerce de vente de mobilier en JAVA , je maîtrise les
-        différentes étapes techniques de la création d’un site ou d’une
+        (HTML ,NEXT.JS…) et j&#x27;ai créé des projets personnels, dont une
+        application d&#x27;E-commerce de vente de mobilier en JAVA , je maîtrise
+        les différentes étapes techniques de la création d’un site ou d’une
         application web ; de la compréhension des besoins utilisateurs, au
         développement frontend et backend en passant par la maintenance.
       </h5>

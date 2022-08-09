@@ -1,9 +1,15 @@
 import Navbar from "../components/Navbar";
 import Siderbar from "../components/Siderbar";
 import "../styles/globals.css";
+import { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 
-function MyApp({ Component, pageProps }) {
+// export interface Props {
+//   children: ReactNode;
+//   component: Component;
+// }
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
       <div className="grid grid-cols-12 gap-6 my-14 lg:px-48 sm:px- md:px-">
